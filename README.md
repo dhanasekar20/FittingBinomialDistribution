@@ -27,7 +27,7 @@ The following are criteria for a frequency distribution to be a binomial distrib
 
 # Program
 ```
-# Developed by:G.Dhanasekar
+# Developed by:DHANASEKAR G
 # Register Number: 212220230009
 ```
 ```python
