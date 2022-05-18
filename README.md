@@ -49,7 +49,7 @@ print("  X P(X=x) Obs.Fr  Ex.Fre   xi ")
 print("----------------------------------")
 for x in range(7):
     c=math.factorial(n)/(math.factorial(x)*math.factorial(n-x))
-    Pr.append(c*p*x*q*(n-x))
+    Pr.append(c*p**x*q**(n-x))
     E.append(Pr[x]*N)
     xi.append((f[x]-E[x])**2/E[x])
     print("%2.2f %2.2f  %4.2f   %3.2f  %3.2f"%(x,Pr[x],f[x],E[x],xi[x]))
@@ -70,8 +70,10 @@ else:
 
 
 
-# Output : 
-![sss](https://user-images.githubusercontent.com/75235789/166263898-74bf1b5c-5269-42b2-a746-333ddca823fd.jpg)
+# Output :  
+
+ 
+![new](https://user-images.githubusercontent.com/75264748/168967073-889e9193-9f9c-4294-a1e5-57f05a3eeff3.png)
 
 # Result
 Thus, the fitting binomial distribution for the given frequencey distribution is implemented.
